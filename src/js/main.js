@@ -4,7 +4,7 @@ var ReactDOM      = require('react-dom');
 var AppApi        = require('./utils/AppApi');
 var AppConstants  = require('./constants/AppConstants');
 
-var App 	 = require('./components/App.jsx');
+var App 	 = require('./components/App');
 
 ReactDOM.render(
 	<App />,
