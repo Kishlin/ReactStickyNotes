@@ -1,0 +1,31 @@
+{
+  "name": "ReactStickyNotes",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A StickyNotes app using React and Mongodb.",
+  "dependencies": {
+    "firebase": "^4.1.2",
+    "react": "^15.6.0",
+    "react-dom": "^15.6.0"
+  },
+  "homepage": "https://kishlin.github.io/ReactStickyNotes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kishlin/ReactStickyNotes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kishlin/ReactStickyNotes/issues"
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "flux": "*",
+    "gulp": "*",
+    "reactify": "*",
+    "vinyl-source-stream": "*",
+    "object-assign": "*"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d web/dist",
+    "start": "gulp"
+  }
+}
